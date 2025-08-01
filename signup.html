@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Inscription | ArtiFace</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Inscription Artisan</h1>
+  </header>
 
+  <div class="container">
+    <form onsubmit="event.preventDefault(); window.location.href='dashboard.html';">
+      <label>Nom complet</label>
+      <input type="text" required />
+      <label>Numéro de téléphone</label>
+      <input type="tel" required />
+      <label>Adresse email</label>
+      <input type="email" required />
+      <label>Mot de passe</label>
+      <input type="password" required />
+      <label>Métier</label>
+      <input type="text" required />
+
+      <button type="submit">Créer mon compte</button>
+    </form>
+  </div>
+</body>
+</html>
